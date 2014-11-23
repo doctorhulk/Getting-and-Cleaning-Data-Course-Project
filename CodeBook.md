@@ -12,25 +12,25 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
-A set of variables was estimated from the above signals. For the purpose of the project only the following were used:
+A set of variables was estimated from the above signals. For the purpose of the project only the following have been used:
 * mean(): Mean value
 * std(): Standard deviation
 
@@ -44,7 +44,7 @@ There have been 30 subjects and 6 activities and 66 selected input variables. Fo
 
 The output data set contains the following variables:
 
-|-------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+
 |Variable                 |DataType |Description                                                                                                                                      |
 |-------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 |activity                 |chr      |  The activity done by the subject. The allowed values are: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING" |
@@ -115,7 +115,7 @@ The output data set contains the following variables:
 |fBodyBodyGyroMag.Std     |num      |  The average of the input variable fBodyBodyGyroMag-std()                                                                                       |
 |fBodyBodyGyroJerkMag.Mean|num      |  The average of the input variable fBodyBodyGyroJerkMag-mean()                                                                                  |
 |fBodyBodyGyroJerkMag.Std |num      |  The average of the input variable fBodyBodyGyroJerkMag-std()                                                                                   |
-|-------------------------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 
 

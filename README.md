@@ -16,13 +16,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Files included
 
-* **README.md** - an introduction to the project
-* **run_analysis.R** - an R script which does the processing
-* **CodeBook.md** - a text file describing the data, variables and applied transformations
+* **README.md** - A short introduction to the project
+* **run_analysis.R** - The R script which does the processing
+* **CodeBook.md** - A text file describing the data, variables and applied transformations
 
 ## How to run 
 
 To process the data:
+
 1. Start a new or go to an already opened R console.
 2. Use the ```setwd()``` command to change the working directory to the location, where the run_analysis.R file is stored
 3. Run the script with the command ```source("run_analysis.R")```

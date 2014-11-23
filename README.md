@@ -16,18 +16,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Files included
 
-* README.md - an introduction to the project
-* run_analysis.R - an R script which does the processing
-* CodeBook.md - a text file describing the data, variables and applied transformations
+* **README.md** - an introduction to the project
+* **run_analysis.R** - an R script which does the processing
+* **CodeBook.md** - a text file describing the data, variables and applied transformations
 
 ## How to run 
 
 To process the data:
-- Start an R console.
-- Use the ```setwd()``` command to change the working directory to the location, where the run_analysis.md file is stored
-- Run the script with the command ```source("run_analysis.R")```
+1. Start a new or go to an already opened R console.
+2. Use the ```setwd()``` command to change the working directory to the location, where the run_analysis.R file is stored
+3. Run the script with the command ```source("run_analysis.R")```
 
-Note: The script will download the data set from the internet and store it in the directory, from which it's been invoked. 
+**Note:** The script will download the data set from the internet and store it in the directory, from which it's been invoked. 
 
 The output file 'variable_averages.txt' containing clean data will be saved in the directory 'UCI HAR Dataset/'.
 

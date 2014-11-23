@@ -23,9 +23,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ## How to run 
 
 To process the data:
-1. Start an R console.
-2. Use the setwd() command to change the working directory to the location, where the run_analysis.md file is stored
-3. Run the script with the command source("run_analysis.R")
+- Start an R console.
+- Use the ```setwd()``` command to change the working directory to the location, where the run_analysis.md file is stored
+- Run the script with the command ```source("run_analysis.R")```
 
 Note: The script will download the data set from the internet and store it in the directory, from which it's been invoked. 
 
